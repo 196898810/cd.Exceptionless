@@ -16,7 +16,8 @@
 全局异常使用方法
 在`Program`修改`Main`方法
 
-`static void Main()
+```
+static void Main()
         {
             try
             {
@@ -36,9 +37,9 @@
             {
                 Information.ShowMessage(ex);
             }
-        }`
-
-## 2.cd.Exceptionless NETCore扩展类库,当前版本Net5,
+        }
+```
+## 2.cd.Exceptionless NETCore扩展类库,当前版本Net5
 可以通过从NuGet添加cd.Exceptionless包直接使用,若需要低版本下载源码重新编译
 使用前需要在appsettings.json节加入Key和Url
 注册方法: app.UseExceptionless(Configuration);
