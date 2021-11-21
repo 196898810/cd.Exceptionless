@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>扎塔恩</Authors>
+    <Company>扎塔恩</Company>
+    <Description>Exceptionless扩展包</Description>
+    <PackageProjectUrl>https://github.com/196898810/cd.Exceptionless</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Exceptionless.AspNetCore" Version="4.6.2" />
+  </ItemGroup>
+
+</Project>

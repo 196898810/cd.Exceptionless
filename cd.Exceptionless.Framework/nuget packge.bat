@@ -1,0 +1,1 @@
+nuget pack cd.Exceptionless.Framework.csproj
